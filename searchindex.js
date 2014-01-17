@@ -1,0 +1,1 @@
+Search.setIndex({objects:{},terms:{index:0,search:0,pyramid:[0,1],welcom:0,offer:1,modul:0,tabl:0,indic:0,content:[0,1],thi:1,learn:1,introduct:1,guid:0,page:0,document:[0,1]},objtypes:{},titles:["Welcome to pyramid-guide&#8217;s documentation!","Introduction"],objnames:{},filenames:["index","source/includeme"]})
