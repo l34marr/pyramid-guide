@@ -15,3 +15,25 @@ It is recommended to install Kotti inside a virtualenv:
   $ virtualenv kotti_site
   $ cd kotti_site
   $ bin/pip install -r https://raw.github.com/Kotti/Kotti/stable/requirements.txt
+
+Here is the sample message by the end of installation:
+
+.. parsed-literal::
+
+  Successfully installed Kotti Babel Beaker Chameleon FormEncode Mako
+  MarkupSafe PasteDeploy Pillow Pygments SQLAlchemy SQLAlchemy-Utils
+  Unidecode WebOb alembic appdirs bleach bleach-whitelist colander
+  deform docopt fanstatic filedepot html2text html5lib iso8601
+  js.angular js.bootstrap js.deform js.fineuploader js.html5shiv
+  js.jquery js.jquery-form js.jquery-maskedinput js.jquery-maskmoney
+  js.jquery-sortable js.jquery-tablednd js.jquery-timepicker-addon
+  js.jqueryui js.jqueryui-tagit js.modernizr js.select2 js.tinymce
+  kotti-tinymce lingua peppercorn plone.scale polib py-bcrypt
+  pyramid pyramid-beaker pyramid-chameleon pyramid-debugtoolbar
+  pyramid-deform pyramid-mailer pyramid-mako pyramid-tm pyramid-zcml
+  pytz repoze.lru repoze.sendmail repoze.workflow repoze.zcml
+  shutilwhich six transaction translationstring usersettings venusian
+  waitress zope.component zope.configuration zope.deprecation
+  zope.event zope.i18nmessageid zope.interface zope.schema
+  zope.sqlalchemy python-editor
+
