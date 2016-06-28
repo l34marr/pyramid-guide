@@ -5,6 +5,12 @@ Introduction
 
 This offers documentation for Pyramid learning.
 
+Pyramid
+=======
+
+http://pyramid-tutorials.readthedocs.io/en/latest/humans/
+http://github.com/dnouri/pyramid-tutorial
+
 Kotti
 =====
 
@@ -15,6 +21,7 @@ It is recommended to install Kotti inside a virtualenv:
   $ virtualenv kotti_site
   $ cd kotti_site
   $ bin/pip install -r https://raw.github.com/Kotti/Kotti/stable/requirements.txt
+
 
 Here is the sample message by the end of installation:
 
@@ -36,4 +43,26 @@ Here is the sample message by the end of installation:
   waitress zope.component zope.configuration zope.deprecation
   zope.event zope.i18nmessageid zope.interface zope.schema
   zope.sqlalchemy python-editor
+
+Get the configuration file ready for Paste Deploy to work. Here is the example file:
+
+.. parsed-literal::
+
+  $ wget https://raw.github.com/Kotti/Kotti/stable/app.ini
+
+Often just change the `kotti.secret` and `host` settings and ready to go.
+
+.. parsed-literal::
+
+  $ bin/pserve app.ini
+
+SubstanceD
+==========
+
+Working with Diazo? Unlike Plone, SubstanceD does not define any "retail" views.
+
+Diazo
+=====
+
+https://github.com/ade25/kotti-blueprint
 
